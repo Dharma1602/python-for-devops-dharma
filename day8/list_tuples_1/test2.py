@@ -1,0 +1,11 @@
+students_names = ["Dharma", "Yamini", "Ujwal", "Harsha", "Divya", "Abinav"]
+print(len(students_names))
+students_names.append("Kiara")
+students_names.reverse()
+# students_names.remove("")
+print(students_names[0])
+print(students_names[1])
+print(students_names)
+print(students_names[0:3])
+print(type(students_names))
+print(students_names[0] + "--" + students_names[1])
